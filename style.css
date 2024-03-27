@@ -1,0 +1,59 @@
+/* Arquivo style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('img/back.jpg');
+    background-size: cover; /* Garante que a imagem cubra toda a área disponível */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1F6733;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #1f6733;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+iframe {
+    width: 100%; /* Largura do mapa será 100% do elemento pai */
+    height: 50vh; /* Altura do mapa será 50% da altura da viewport */
+    border: none; /* Remove a borda padrão do iframe */
+    display: block;
+    margin: 20px auto;
+}
