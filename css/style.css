@@ -1,13 +1,12 @@
-/* Arquivo style.css */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url('img/back.jpg');
+    background-image: url('../img/back.jpg');
     background-size: cover; /* Garante que a imagem cubra toda a área disponível */
-    background-position: center center; /* Centraliza a imagem no elemento */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem no elemento */
+    
 }
 
 .container {
